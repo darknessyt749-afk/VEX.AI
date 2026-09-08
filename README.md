@@ -18,9 +18,9 @@ VEXAI is a high-performance AI interface that leverages the power of Ollama to b
 ### 2. Model Setup
 Open your terminal and pull the required engines:
 ```bash
-ollama pull treyleo16/haiku-4-5
-ollama pull treyleo16/mythos-5
-ollama pull treyleo16/fable-5-1
-ollama pull treyleo16/sonnet-5
-ollama pull treyleo16/gpt-5-6-terra
-ollama pull treyleo16/gpt-6-astra
+ollama pull treyleo16/haiku-4-5:latest
+ollama pull treyleo16/mythos-5:latest
+ollama pull treyleo16/fable-5-1:latest
+ollama pull treyleo16/sonnet-5:latest
+ollama pull treyleo16/gpt-5-6-terra:latest
+ollama pull treyleo16/gpt-6:latest
