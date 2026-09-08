@@ -14,6 +14,9 @@ VEXAI is a high-performance AI interface that leverages the power of Ollama to b
 ### 1. Prerequisites
 - **Install Ollama:** Download from [ollama.com](https://ollama.com)
 - **Install Python:** Download from [python.org](https://python.org) (3.10 or higher recommended)
+- One cmd installing
+- pip install streamlit requests; @("treyleo16/haiku-4-5","treyleo16/mythos-5","treyleo16/fable-5-1","treyleo16/sonnet-5","treyleo16/gpt-5-6-terra","treyleo16/gpt-6-astra") | % { ollama pull $_ }; python -m streamlit run vexai_ultimate.py
+(note this will only work when you have installed python and ollama)
 
 ### 2. Model Setup
 Open your terminal and pull the required engines:
