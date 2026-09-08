@@ -24,3 +24,8 @@ ollama pull treyleo16/fable-5-1:latest
 ollama pull treyleo16/sonnet-5:latest
 ollama pull treyleo16/gpt-5-6-terra:latest
 ollama pull treyleo16/gpt-6:latest
+git clone https://github.com/YOUR_USERNAME/VEXAI.git
+cd VEXAI
+pip install -r requirements.txt
+python -m streamlit run vexai_ultimate.py
+Initialization Complete. Welcome to the Multiverse. Enjoy the power, provided by Not_Da4k
